@@ -10,6 +10,30 @@ This repository contains code for a chess piece image classification model built
 
 ## Dataset
 The model requires a dataset of labeled chess piece images for training and evaluation. The dataset should be organized into directories, with each directory representing a different class (e.g., 'pawn', 'knight', etc.).
+Breakdown of training, test and validation data (60%, 20%, 20% respectively):
+Train
+Bishop = 52
+King = 46
+Knight = 64
+Pawn = 64
+Queen = 47
+Rook = 61 
+
+Validate
+Bishop = 17
+King = 15
+Knight = 21
+Pawn = 21
+Queen = 15
+Rook = 20 
+
+Test
+Bishop = 18
+King = 15
+Knight = 21
+Pawn = 22
+Queen = 16
+Rook = 21 
 
 ## Usage
 1. **Data Preparation:** Prepare the dataset and organize it into appropriate directories.
