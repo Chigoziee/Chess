@@ -35,12 +35,9 @@ Pawn = 22
 Queen = 16
 Rook = 21 
 
-## Steps
-1. **Data Preparation:** Prepare the dataset and organize it into appropriate directories.
-2. **Model Training:** Run the `train.py` script to train the model. Adjust hyperparameters and model architecture as needed.
-3. **Model Evaluation:** Evaluate the trained model using the `evaluate.py` script on a separate test dataset.
-4. **Inference:** Use the trained model for inference on new chess piece images using the `infer.py` script.
 
+## Model
+The Convolutional neutral network (CNN) model used is the pretrained DenseNET121 model.
 
 ## Model Evaluation
 The model's performance can be evaluated using metrics such as accuracy. Additionally, visual inspection of classification results can provide insights into the model's strengths and weaknesses.
