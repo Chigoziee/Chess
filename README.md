@@ -35,7 +35,7 @@ Pawn = 22
 Queen = 16
 Rook = 21 
 
-## Usage
+## Steps
 1. **Data Preparation:** Prepare the dataset and organize it into appropriate directories.
 2. **Model Training:** Run the `train.py` script to train the model. Adjust hyperparameters and model architecture as needed.
 3. **Model Evaluation:** Evaluate the trained model using the `evaluate.py` script on a separate test dataset.
